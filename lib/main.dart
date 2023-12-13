@@ -3,6 +3,8 @@ import 'home_page.dart';
 import 'home_page2.dart';
 import 'home_page3.dart';
 import 'home_page4.dart';
+import 'home_page5.dart';
+import 'home_page6.dart';
 
 
 void main() {
@@ -15,7 +17,7 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: HomePage4(),
+      home: HomePage6(),
     );
   }
 }
